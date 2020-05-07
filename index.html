@@ -8,24 +8,121 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+      table.verAlgCenter {
+        vertical-align: middle;
+      }
+      tr.head {
+        background-color: yellow;
+      }
+      th.maxh1 {
+        min-width:170px;
+      }
+      th.maxh2 {
+        min-width:60px;
+      }
+      th.maxh3 {
+        min-width:200px;
+      }
+      th.maxh4 {
+        min-width:250px;
+      }
+      td.verAlgCenter {
+        vertical-align: middle;
+      }
+    </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <!-- Brand/logo -->
-      <a class="navbar-brand" href="#">Logo</a>
-      
-      <!-- Links -->
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link 3</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>【攻擊系】 下/中級</h1>
+      <div class="table-responsive">
+        <table class="table table-bordered ">
+          <tr class="head">
+              <th class="maxh1">名稱</th>
+              <th class="maxh2">級別</th>
+              <th class="maxh3"><img src="https://i.imgur.com/kduvTA1.png" width="50">活化&nbsp;追加效果</th>
+              <th class="maxh4"><img src="https://i.imgur.com/hQ7WgP1.png" width="50">覺醒&nbsp;追加效果</th>
+              <th class="maxh4">獲得方式</th>
+              <th>備註</th>
+          </tr>
+          <tr>
+          <td><span style="color: red;"><b>火</b></span>之力</td>
+              <td rowspan="5" class="verAlgCenter">下級</td>
+              <td rowspan="5" class="verAlgCenter">力量/智力 <b>+3</b> <br> 耐力/精神/幸運/速度 <b>+3</b></td>
+              <td><span style="color: red;"><b>火屬性</b></span>攻擊力 <b>+10%</b></td>
+              <td rowspan="5" class="verAlgCenter">現代東方大陸 <li>寶箱</li><li>劇情Boss</li><li>敵人掉落</li></td>
+              <td rowspan="16" class="verAlgCenter">所有角色皆可裝備</td>
+          </tr>
+          <tr>
+              <td><span style="color: blue;"><b>水</b></span>之力</td>
+              <td><span style="color: blue;"><b>水屬性</b></span>攻擊力 <b>+10%</b></td>
+          </tr>
+          <tr>
+              <td><span style="color: brown;"><b>地</b></span>之力</td>
+              <td><span style="color: brown;"><b>地屬性</b></span>攻擊力 <b>+10%</b></td>
+          </tr>
+          <tr>
+              <td><span style="color: green;"><b>風</b></span>之力</td>
+              <td><span style="color: green;"><b>風屬性</b></span>攻擊力 <b>+10%</b></td>
+          </tr>
+          <tr>
+              <td><b>無</b>之力</td>
+              <td><b>無屬性</b>攻擊力 <b>+20%</b></td>
+          </tr>
+          <tr>
+              <td><span style="color: red;"><b>火炎</b></span>之力</td>
+              <td rowspan="5" class="verAlgCenter">中級</td>
+              <td rowspan="5" class="verAlgCenter">力量/智力 <b>+5</b> <br> 耐力/精神/幸運/速度 <b>+5</b></td>
+              <td><span style="color: red;"><b>火屬性</b></span>攻擊力 <b>+20%</b></td>
+              <td rowspan="5" class="verAlgCenter">現代東方大陸(AD)<li>辰之國交換（瓦洛多x20）</li><li>結算獎勵</li></td>
+          </tr>
+          <tr>
+              <td><span style="color: blue;"><b>水流</b></span>之力</td>
+              <td><span style="color: blue;"><b>水屬性</b></span>攻擊力 <b>+20%</b></td>
+          </tr>
+          <tr>
+              <td><span style="color: brown;"><b>大地</b></span>之力</td>
+              <td><span style="color: brown;"><b>地屬性</b></span>攻擊力 <b>+20%</b></td>
+          </tr>
+          <tr>
+              <td><span style="color: green;"><b>疾風</b></span>之力</td>
+              <td><span style="color: green;"><b>風屬性</b></span>攻擊力 <b>+20%</b></td>
+          </tr>
+          <tr>
+              <td><b>虛無</b>之力</td>
+              <td><b>無屬性</b>攻擊力 <b>+30%</b></td>
+          </tr>
+          <tr>
+              <td>抉痛之力（杖）</td>
+              <td rowspan="3" class="verAlgCenter">中級</td>
+              <td>智力 <b>+5</b><br>速度 <b>+5</b></td>
+              <td rowspan="3" class="verAlgCenter">敵人 <b>受傷狀態</b> 時傷害 <b>+30%</b></td>
+              <td rowspan="6" class="verAlgCenter">古代東方大陸(AD)<li>海之國交換（魔獸之骨x20）</li><li>結算獎勵</li></td>
+          </tr>
+          <tr>
+              <td>抉痛之力（錘）</td>
+              <td>智力 <b>+5</b><br>力量 <b>+5</b></td>
+          </tr>
+          <tr>
+              <td>抉痛之力（其他）</td>
+              <td>力量 <b>+5</b><br>幸運 <b>+5</b></td>
+          </tr>
+          <tr>
+              <td>害毒之力（杖）</td>
+              <td rowspan="3" class="verAlgCenter">中級</td>
+              <td>智力 <b>+5</b><br>速度 <b>+5</b></td>
+              <td rowspan="3" class="verAlgCenter">敵人 <b>中毒狀態</b> 時傷害 <b>+30%</b></td>
+          </tr>
+          <tr>
+              <td>害毒之力（錘）</td>
+              <td>智力 <b>+5</b><br>力量 <b>+5</b></td>
+          </tr>
+          <tr>
+              <td>害毒之力（其他）</td>
+              <td>力量 <b>+5</b><br>幸運 <b>+5</b></td>
+          </tr>
+      </table>
+    </div>
+  </div>
   </body>
 </html>
