@@ -1,0 +1,26 @@
+/* TABLE */
+table.fix1{
+  table-layout: fixed;
+  width: 480px;
+}
+table.verAlgCenter {
+    vertical-align: middle;
+}
+tr.head {
+    background-color: yellow;
+}
+th.h80 {
+  width: 80px;
+}
+th.h200 {
+  width: 200px;
+}
+  th.maxh3 {
+    min-width:200px;
+  }
+  th.maxh4 {
+    min-width:250px;
+  }
+  td.verAlgCenter {
+    vertical-align: middle;
+  }
