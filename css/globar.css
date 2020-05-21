@@ -3,7 +3,17 @@
 /* Padding below the footer and lighter body text */
 body {
     background-attachment: fixed;
+    background-color: #eae8e0;
     padding-bottom: 40px;
     font-family: 'Lato', "Microsoft JhengHei", "微軟正黑體", sans-serif;
     line-height: 1.8em;
   }
+
+h2.leftgreen {
+  border-left: 4px solid #4056a1;
+  padding-left: 2%;
+  font-size: 170%;
+}
+div.pdspam{
+  padding-bottom: 6%;
+}

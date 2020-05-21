@@ -3,17 +3,32 @@ table.fix1{
   table-layout: fixed;
   width: 480px;
 }
+table.fix2{
+  table-layout: fixed;
+  width: 580px;
+}
+table.fix3{
+  table-layout: fixed;
+  width: 650px;
+}
 table.verAlgCenter {
     vertical-align: middle;
 }
-tr.head {
-    background-color: yellow;
-}
+
 th.h80 {
   width: 80px;
 }
+th.h100 {
+  width: 100px;
+}
 th.h200 {
   width: 200px;
+}
+th.h300 {
+  width: 300px;
+}
+th.h380 {
+  width: 380px;
 }
   th.maxh3 {
     min-width:200px;
