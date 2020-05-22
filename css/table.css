@@ -1,11 +1,11 @@
 /* TABLE */
 table.fix1{
   table-layout: fixed;
-  width: 480px;
+  
 }
 table.fix2{
   table-layout: fixed;
-  width: 580px;
+  width: 700px;
 }
 table.fix3{
   table-layout: fixed;

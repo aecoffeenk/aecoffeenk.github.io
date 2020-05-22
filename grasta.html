@@ -7,150 +7,153 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     
     <!--CSS-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css\globar.css">
     <link rel="stylesheet" href="css\table.css">
   </head>
-  <body>
-      <div class="container">
-        <h1>靈晶系統【電子表格】</h1>
-        <hr>
-        <div class="container">
-            <div class="table-responsive pdspam">
-                <h2 class="leftgreen">靈晶種類</h2>
-                <hr>
-                <table class="table table-hover fix2">
-                    <tr class="thead-dark">
-                        <th>種類</th>
-                        <th class="h300">效果</th>
-                        <th>合成素材</th>
-                    </tr>
-                    <tr>
-                        <td><img src="https://i.imgur.com/kduvTA1.png" alt="Imgur" width="40"> 攻擊系</td>
-                        <td>主要為攻擊強化</td>
-                        <td>攻擊系合成素材</td>
-                    </tr>
-                    <tr>
-                        <td><img src="https://i.imgur.com/iVP2pz3.png" alt="Imgur" width="40"> 回複系</td>
-                        <td>主要為<b>HP</b>回複強化或<b>MP</b>消耗減少</td>
-                        <td>生命系合成素材</td>
-                    </tr>
-                    <tr>
-                        <td><img src="https://i.imgur.com/uRmO3Jh.png" alt="Imgur" width="40"> 支援系</td>
-                        <td>主要為耐性強化</td>
-                        <td>支援系合成素材</td>
-                    </tr>
-                    
-                </table>
+  <body data-spy="scroll" data-target="#myScrollspy" data-offset="20">  
+    <div class="container"> 
+        <div class="row">
+            <h1>靈晶系統【電子表格】</h1>
+            <hr>
+            <div class="col-sm-10">
+                <div id="section1">
+                    <div class="table-responsive pdspam">
+                        <h2 class="leftgreen">靈晶種類</h2>
+                        <hr>
+                        <table class="table table-hover fix2">
+                            <tr class="thead-dark">
+                                <th>種類</th>
+                                <th class="h300">效果</th>
+                                <th>合成素材</th>
+                            </tr>
+                            <tr>
+                                <td><img src="https://i.imgur.com/kduvTA1.png" alt="Imgur" width="40"> 攻擊系</td>
+                                <td>主要為攻擊強化</td>
+                                <td>攻擊系合成素材</td>
+                            </tr>
+                            <tr>
+                                <td><img src="https://i.imgur.com/iVP2pz3.png" alt="Imgur" width="40"> 回複系</td>
+                                <td>主要為<b>HP</b>回複強化或<b>MP</b>消耗減少</td>
+                                <td>生命系合成素材</td>
+                            </tr>
+                            <tr>
+                                <td><img src="https://i.imgur.com/uRmO3Jh.png" alt="Imgur" width="40"> 支援系</td>
+                                <td>主要為耐性強化</td>
+                                <td>支援系合成素材</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="section2" class="table-responsive pdspam">
+                    <h2 class="leftgreen">素材獲得方式</h2>
+                    <hr>
+                    <table class="table table-hover fix3">
+                        <tr class="thead-dark">
+                            <th class="h100">素材</th>
+                            <th class="h380">獲得方式</th>
+                            <th>分解獲得</th>
+                        </tr>
+                        <tr>
+                            <td><img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片</td>
+                            <td>東方大陸
+                                <li>敵人掉落</li><br>
+                                東方大陸（AD）
+                                <li>敵人掉落</li>
+                                <li>寶箱掉落</li>
+                                <li>結算獎勵</li>
+                            </td>
+                            <td>靈晶
+                                <li>下級</li>
+                                <li>中級</li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://i.imgur.com/5Ug1DzY.png" alt="Imgur" width="30"> 結晶</td>
+                            <td>東方大陸（AD）
+                                <li>敵人掉落</li>
+                                <li>寶箱掉落</li>
+                                <li>結算獎勵</li>
+                            </td>
+                            <td>靈晶
+                                <li>中級（覺醒）</li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><img src="https://i.imgur.com/rUWxaXp.png" alt="Imgur" width="30"> 硬珠</td>
+                            <td>全東方大陸（AD）
+                                <li>寶箱掉落</li>
+                                <li>結算獎勵</li><br>
+                                現代東方大陸（AD）
+                                <li>辰之國交換（瓦洛多x50）</li>
+                                <li>已之國交換（貓繪馬x1）</li><br>
+                                古代東方大陸（AD）
+                                <li>海之國交換（瓦洛多x50）</li>
+                                <li>山之國交換（土偶x1）</li><br>
+                                薩魯帕村 貓道
+                                <li>交換攻擊硬珠（混沌之結晶x50）最多8個</li>
+                                <li>交換支援硬珠（混沌之結晶x50）最多2個</li><br>
+                                月影之森 貓道
+                                <li>交換生命攻擊硬珠（混沌之雫x50）最多8個</li>
+                            </td>
+                            <td>-</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="section3" class="table-responsive pdspam">
+                    <h2 class="leftgreen">靈晶合成素材</h2>
+                    <hr>
+                    <table class="table table-hover fix1">
+                        <tr class="thead-dark">
+                            <th class="h80">級別</th>
+                            <th class="h200">活化</th>
+                            <th>覺醒</th>
+                        </tr>
+                        <tr>
+                            <td>下級</td>
+                            <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片 x20 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x50,000 </li></td>
+                            <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片 x40 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x100,000 </li></td>
+                        </tr>
+                        <tr>
+                            <td>中級</td>
+                            <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片 x40 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x100,000 </li></td>
+                            <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片 x100 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x200,000 </li></td>
+                        </tr>
+                        <tr>
+                            <td>上級</td>
+                            <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片 x100 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x150,000 </li></td>
+                            <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片 x300 </li><li> <img src="https://i.imgur.com/5Ug1DzY.png" alt="Imgur" width="30"> 結晶 x30 </li><li> <img src="https://i.imgur.com/rUWxaXp.png" alt="Imgur" width="30"> 硬珠 x1 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x300,000 </li></td>
+                        </tr>
+                        <tr>
+                            <td>特殊</td>
+                            <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 特殊碎片 x20 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x50,000 </li></td>
+                            <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 特殊碎片 x40 </li><li> <img src="https://i.imgur.com/5Ug1DzY.png" alt="Imgur" width="30"> 特殊結晶 x10 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x100,000 </li></td>
+                        </tr>
+                        <tr>
+                            <td>真·特殊</td>
+                            <td>-</td>
+                            <td><li><img src="https://i.imgur.com/UgTjyJh.png" alt="Imgur" width="30"> VC靈晶 x3</li></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            <div class="table-responsive pdspam">
-                <h2 class="leftgreen">素材獲得方式</h2>
-                <hr>
-                <table class="table table-hover fix3">
-                    <tr class="thead-dark">
-                        <th class="h100">素材</th>
-                        <th class="h380">獲得方式</th>
-                        <th>分解獲得</th>
-                    </tr>
-                    <tr>
-                        <td><img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片</td>
-                        <td>東方大陸
-                            <li>敵人掉落</li><br>
-                            東方大陸（AD）
-                            <li>敵人掉落</li>
-                            <li>寶箱掉落</li>
-                            <li>結算獎勵</li>
-                        </td>
-                        <td>靈晶
-                            <li>下級</li>
-                            <li>中級</li>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><img src="https://i.imgur.com/5Ug1DzY.png" alt="Imgur" width="30"> 結晶</td>
-                        <td>東方大陸（AD）
-                            <li>敵人掉落</li>
-                            <li>寶箱掉落</li>
-                            <li>結算獎勵</li>
-                        </td>
-                        <td>靈晶
-                            <li>中級（覺醒）</li>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td><img src="https://i.imgur.com/rUWxaXp.png" alt="Imgur" width="30"> 硬珠</td>
-                        <td>全東方大陸（AD）
-                            <li>寶箱掉落</li>
-                            <li>結算獎勵</li><br>
-                            現代東方大陸（AD）
-                            <li>辰之國交換（瓦洛多x50）</li>
-                            <li>已之國交換（貓繪馬x1）</li><br>
-                            古代東方大陸（AD）
-                            <li>海之國交換（瓦洛多x50）</li>
-                            <li>山之國交換（土偶x1）</li><br>
-                            薩魯帕村 貓道
-                            <li>交換攻擊硬珠（混沌之結晶x50）最多8個</li>
-                            <li>交換支援硬珠（混沌之結晶x50）最多2個</li><br>
-                            月影之森 貓道
-                            <li>交換生命攻擊硬珠（混沌之雫x50）最多8個</li>
-                        </td>
-                        <td>-</td>
-                    </tr>
-                </table>
-
-            </div>
-            <div class="table-responsive pdspam">
-                <h2 class="leftgreen">靈晶合成素材</h2>
-                <hr>
-                <table class="table table-hover fix1">
-                    <tr class="thead-dark">
-                        <th class="h80">級別</th>
-                        <th class="h200">活化</th>
-                        <th>覺醒</th>
-                    </tr>
-                    <tr>
-                        <td>下級</td>
-                        <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片 x20 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x50,000 </li></td>
-                        <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片 x40 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x100,000 </li></td>
-                    </tr>
-                    <tr>
-                        <td>中級</td>
-                        <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片 x40 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x100,000 </li></td>
-                        <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片 x100 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x200,000 </li></td>
-                    </tr>
-                    <tr>
-                        <td>上級</td>
-                        <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片 x100 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x150,000 </li></td>
-                        <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 碎片 x300 </li><li> <img src="https://i.imgur.com/5Ug1DzY.png" alt="Imgur" width="30"> 結晶 x30 </li><li> <img src="https://i.imgur.com/rUWxaXp.png" alt="Imgur" width="30"> 硬珠 x1 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x300,000 </li></td>
-                    </tr>
-                    <tr>
-                        <td>特殊</td>
-                        <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 特殊碎片 x20 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x50,000 </li></td>
-                        <td><li> <img src="https://i.imgur.com/LGgUB8W.png" alt="Imgur" width="30"> 特殊碎片 x40 </li><li> <img src="https://i.imgur.com/5Ug1DzY.png" alt="Imgur" width="30"> 特殊結晶 x10 </li><li> <img src="https://i.imgur.com/qbMyjMY.png" alt="Imgur" width="30"> 金幣 x100,000 </li></td>
-                    </tr>
-                    <tr>
-                        <td>真·特殊</td>
-                        <td>-</td>
-                        <td><li><img src="https://i.imgur.com/UgTjyJh.png" alt="Imgur" width="30"> VC靈晶 x3</li></td>
-                    </tr>
-                </table>
-            </div>
-            <!-- Nav tabs 
-            <ul class="nav nav-tabs">
-                <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#menu1">Menu 1</a>
-                </li>
+            <nav class="col-sm-2 col-2" id="myScrollspy">
+                <ul class="nav nav-pills flex-column">
                     <li class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#menu2">Menu 2</a>
-                </li>
-            </ul>-->
-            
+                        <a class="nav-link active" href="#section1">靈晶種類</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">素材獲得方式</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section3">靈晶合成素材</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-      </div>
+    </div>
   </body>
 </html>
